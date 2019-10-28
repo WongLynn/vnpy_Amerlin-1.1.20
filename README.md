@@ -1,9 +1,4 @@
 
-<p align="center">
-  <img src ="https://github.com/msincenselee/vnpy/blob/master/huafu_on_premise.jpg"/>
-</p>
-
-
 # “通往财富的自由之路”
 
 ###Fork版本主要改进如下
