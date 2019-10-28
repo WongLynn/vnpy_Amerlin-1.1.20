@@ -1,0 +1,14 @@
+{
+    "apiKey": "eae65450-e6449325f63f",
+    "apiSecret": "83B62340A",
+    "passphrase":"yalin",
+    "future_leverage": 10,
+    "swap_leverage": 1,
+    "margin_token": 3,
+    "sessionCount": 3,
+    "trace": false,
+    "symbols":["ETH-USDT"],
+    "setQryEnabled":false,
+    "setQryFreq":60,
+    "note":""
+}

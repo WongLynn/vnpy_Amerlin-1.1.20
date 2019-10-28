@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: vnpy-Amerlin
+Version: 1.1.20
+Summary: A framework for developing Quantitative Trading programmes
+Home-page: http://www.vnpy.org
+Author: Xingetouzi
+Author-email: vnpy_Amerlin@gmail.com
+License: MIT
+Description: 
+        vn.py - By Traders, For Traders.
+        
+        The vn.py project is an open-source quantitative trading framework 
+        that is developed by traders, for traders. 
+        
+        The project is mainly written in Python and uses C++ for low-layer 
+        and performance sensitive infrastructure.
+        
+        Using the vn.py project, institutional investors and professional 
+        traders, such as hedge funds, prop trading firms and investment banks, 
+        can easily develop complex trading strategies with the Event Engine 
+        Strategy Module, and automatically route their orders to the most 
+        desired destinations, including equity, commodity, forex and many 
+        other financial markets.
+        
+Keywords: quant quantitative investment trading algotrading
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows Server 2008
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: OSI Approved :: MIT License
+Provides-Extra: tq

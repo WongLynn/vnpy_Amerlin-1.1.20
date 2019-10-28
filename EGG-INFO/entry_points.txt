@@ -1,0 +1,3 @@
+[console_scripts]
+vnpy = vnpy.__main__:entry_point
+

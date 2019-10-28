@@ -1,0 +1,6 @@
+vnpy/api/ctp/thostmduserapi.dll
+vnpy/api/ctp/thostmduserapi.so
+vnpy/api/ctp/thosttraderapi.dll
+vnpy/api/ctp/thosttraderapi.so
+vnpy/api/ctp/vnctpmd.pyd
+vnpy/api/ctp/vnctptd.pyd

@@ -1,0 +1,22 @@
+{
+	"fontFamily": "SimHei",
+	"fontSize": 10,
+
+	"mongoHost": "localhost",
+	"mongoPort": 32768,
+	"mongoLogging": true,
+
+	"darkStyle": true,
+	"language": "chinese",
+
+	"logActive": true,
+	"logLevel": "debug",
+	"logConsole": true,
+	"logFile": true,
+
+	"tdPenalty": ["IF", "IH", "IC"],
+	"mailAccount":"",
+	"mailPass":"",
+	"mailServer":"",
+	"mailPort":""	
+}

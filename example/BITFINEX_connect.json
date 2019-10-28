@@ -1,0 +1,7 @@
+{
+	"apiKey": "vJpJpkE8kZN9hu45Wk",
+	"secretKey": "JN4yn90m184A",
+	"symbols": ["BTCUSD", "LTCUSD", "ETHBTC", "EOSUSD", "ETHUSD", "XRPUSD"],
+	"setQryEnabled": true,
+	"setQryFreq": 60
+}

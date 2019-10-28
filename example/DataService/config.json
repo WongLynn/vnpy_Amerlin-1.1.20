@@ -1,0 +1,13 @@
+{
+	"MONGO_HOST": "localhost",
+	"MONGO_PORT": 32768,
+
+	"APIKEY": " ",
+
+	"SYMBOLS": [
+		"BTC/USD.BF",
+		"ETH/USD.BF",
+		"XRP/USD.BF",
+		"LTC/USD.BF"
+	]
+}

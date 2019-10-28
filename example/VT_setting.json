@@ -1,0 +1,24 @@
+{
+	"fontFamily": "SimHei",
+	"fontSize": 9,
+
+	"mongoHost": "localhost",
+	"mongoPort": 32768,
+	"mongoLogging": true,
+
+	"darkStyle": true,
+	"language": "chinese",
+
+	"logActive": true,
+	"logLevel": "debug",
+	"logConsole": true,
+	"logFile": true,
+	"streamLevel": "info",
+
+	"tdPenalty": ["IF", "IH", "IC"],
+	"mailAccount":"894791@qq.com",
+	"mailPass":"dikkjnajgbcef",
+	"mailServer":"smtp.qq.com",
+	"mailPort":"465",
+	"dingding":"5cc1fc6aa263ea3467cec845"
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "name": "BB",
+        "className": "BollBandsStrategy",
+        "symbolList": ["ETHUSD:BITFINEX"],
+        "mailAdd":["sangforchain@dingtalk.com"]
+    },
+    {
+        "name": "ETH_5M_TurtleTradingSpradeStrategy",
+        "className": "TurtleTradingSpradeStrategy",
+        "symbolList": ["XRPUSD:BITFINEX"],
+        "mailAdd":["sangforchain@dingtalk.com"]
+    },
+
+]

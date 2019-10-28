@@ -1,0 +1,7 @@
+{
+  "apiKey": "",
+  "secretKey": "",
+  "symbols": ["LTCBTC"],
+  "setQryEnabled": false,
+  "setQryFreq": 60
+}

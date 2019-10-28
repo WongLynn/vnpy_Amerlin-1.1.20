@@ -1,0 +1,5 @@
+2019-10-24 06:40:20,763  INFO: Register ctaEngine plugin named CtaMerticPlugin: <vnpy.trader.app.ctaStrategy.plugins.ctaMetric.base.CtaMerticPlugin object at 0x000000000A4F6DD8>.
+2019-10-24 06:40:20,764  INFO: Disable ctaEngine plugin: CtaMerticPlugin
+2019-10-24 06:40:20,764  INFO: Register ctaEngine plugin named CtaStrategyInfoPlugin: <vnpy.trader.app.ctaStrategy.plugins.ctaStrategyInfo.sender.CtaStrategyInfoPlugin object at 0x000000000A4F6C18>.
+2019-10-24 06:40:20,765  INFO: Disable ctaEngine plugin: CtaStrategyInfoPlugin
+2019-10-24 06:40:20,765  INFO: Register ctaEngine plugin named BarManagerPlugin: <vnpy.trader.app.ctaStrategy.plugins.ctaBarManager.manager.BarManagerPlugin object at 0x000000000A51FEB8>.

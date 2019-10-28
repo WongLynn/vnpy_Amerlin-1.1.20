@@ -1,0 +1,152 @@
+1.  File "/anaconda3/lib/python3.6/site-packages/vnpy_fxdayu-1.1.20-py3.6.egg/vnpy/trader/app/ctaStrategy/ctaBacktesting.py", line 29, in <module>
+    from deap import creator, base, tools, algorithms
+ModuleNotFoundError: No module named 'deap'
+
+
+修改先关的默认的配置：
+[
+    {
+        "name": "BB",
+        "className": "BollBandsStrategy",
+        "symbolList": ["cu1811:CTP","j1811:CTP"],
+        "mailAdd":["sangforchain@dingtalk.com"]
+    }
+]
+
+
+设置合约的先关的规则内容
+
+    contracts = [
+        {"symbol":"eos.usd.q:okef",
+        "size" : 10,
+        "priceTick" : 0.001,
+        "rate" : 5/10000,
+        "slippage" : 0.005
+        }]
+
+
+
+加载okex 接口
+
+{
+    "apiKey": "",
+    "apiSecret": "",
+    "passphrase":"",
+    "future_leverage": 10,
+    "swap_leverage": 1,
+    "margin_token": 3,
+    "sessionCount": 3,
+    "trace": false,
+    "symbols":["ETH-USDT","ETH-USD-SWAP","ETH-QUARTER"],
+    "setQryEnabled":false,
+    "setQryFreq":60,
+    "note":""
+}
+
+
+#接口编码规则
+
+
+
+apikey = "eae65450-e323-42eb-b422-e6449325f63f"
+secretkey = "83B62340A681E90C3B9FFCE122C9B379"
+IP = "0"
+备注名 = "vnpyfxday_1.1.20test"
+权限 = "只读/交易"
+
+onfailed reuqest : GET /api/swap/v3/position failed because 400:
+headers: {'OK-ACCESS-KEY': 'eae65450-e323-42eb-b422-e6449325f63f', 'OK-ACCESS-SIGN': b'TJIBUloXHrhfOuUaZl4MfY5ndg36A4Lf6BxWX6JcOko=', 'OK-ACCESS-TIMESTAMP': '2019-09-17T17:44:43.901Z', 'OK-ACCESS-PASSPHRASE': 'yalinwang', 'Content-Type': 'application/json'}
+params: None
+data: null
+response:{"code":35005,"message":"User does not exist"}
+
+# 未开通合约
+
+binance
+
+
+3Ed0TTszUitEAFTXqHTCCTqkmg7cwzamwDZUvlsYpTCGMDQRuYyXPw2tjSziAPna
+
+
+XiLZvac10VVkvhPdhDHfCcPvVn26ihTkT85Z1jjvDynZ6h6Q0sGLNPN2pQHSxYbw
+
+        # 解析json文件
+        setting = json.load(f)
+        try:
+            apiKey = str(setting['apiKey'])
+            secretKey = str(setting['secretKey'])
+            symbols = setting['symbols']
+            self.qryEnabled = setting['qryEnabled']
+        except KeyError:
+            log = VtLogData()
+            log.gatewayName = self.gatewayName
+            log.logContent = u'连接配置缺少字段，请检查'
+            self.onLog(log)
+            return
+
+
+#关于bitfinex 的接口的改进测试
+
+
+{
+	"fontFamily": "SimHei",
+	"fontSize": 10,
+
+	"mongoHost": "localhost",
+	"mongoPort": 27017,
+	"mongoLogging": true,
+
+	"darkStyle": true,
+	"language": "chinese",
+
+	"logActive": true,
+	"logLevel": "debug",
+	"logConsole": true,
+	"logFile": true,
+
+	"tdPenalty": ["IF", "IH", "IC"],
+	"mailAccount":"",
+	"mailPass":"",
+	"mailServer":"",
+	"mailPort":""
+}
+数据接口
+
+
+  File "/anaconda3/lib/python3.6/site-packages/vnpy_fxdayu-1.1.20-py3.6.egg/example/StrategyBollBand.py", line 244, in on15MinBar
+    levelRate = 10)      # 保证金交易可填杠杆参数，默认levelRate = 0
+TypeError: buy() got an unexpected keyword argument 'levelRate'
+
+
+
+  File "/anaconda3/lib/python3.6/site-packages/vnpy_fxdayu-1.1.20-py3.6.egg/vnpy/trader/app/ctaStrategy/ctaBacktesting.py", line 1244, in <listcomp>
+    resultList = [res.get() for res in l]
+  File "/anaconda3/lib/python3.6/multiprocessing/pool.py", line 644, in get
+    raise self._value
+TypeError: optimize() takes from 8 to 12 positional arguments but 13 were given
+
+            setting.update(strategySetting)
+            self.clearBacktestingResult()         # 清空策略的所有状态（指如果多次运行同一个策略产生的状态）
+            l.append(pool.apply_async(optimize, (self.__class__, strategyClass, setting,
+                                                 targetName, self.mode,
+                                                 self.startDate, self.initHours, self.endDate,
+                                                 self.dbURI, self.bardbName, self.tickdbName,
+                                                 self.contracts_info, prepared_data)))
+
+
+
+
+{
+    "apiKey": "eae65450-e323-42eb-b422-e6449325f63f",
+    "apiSecret": "83B62340A681E90C3B9FFCE122C9B379",
+    "passphrase":"yalinwang",
+    "future_leverage": 10,
+    "swap_leverage": 1,
+    "margin_token": 3,
+    "sessionCount": 3,
+    "trace": false,
+    "symbols":["ETH-USDT"],
+    "setQryEnabled":false,
+    "setQryFreq":60,
+    "note":""
+}
