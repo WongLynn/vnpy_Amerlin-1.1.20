@@ -8,23 +8,18 @@
 
 ###Fork版本主要改进如下
 
-    - 增加CtaLineBar，CtaPosition，CtaPolicy,UtlSinaClient等基础组件
-    - 增加自动断线重连功能，在开盘前启动，收盘后重连CTP
-    - 修改回测引擎，提供实时计算净值
-    - 修改CtaTemplate，增加了未执行订单的跟踪
-    - 提供非GUI界面启动的主程序。examples/service
-    - 支持数据货币
-    - 升级至py3版本
-       
+    - 增加bitfinex margin交易接口基础组件
+    - 增加数据服务功能
+    - 钉钉通知功能
+    - 优化了海龟交易策略，使用动态杠杆策略
+    - 基于py3.6
+ 
 
-
-大佳
-QQ/Wechat：28888502
-
+欢迎交流
+QQ/Wechat：894510791
 
 --------------------------------------------------------------------------------------------
-# vn.py - 基于python的开源交易平台开发框架
-https://github.com/vnpy/vnpy
+具体安全请参考：https://github.com/xingetouzi/vnpy_fxdayu/wiki
 --------------------------------------------------------------------------------------------
 ### License
 MIT
